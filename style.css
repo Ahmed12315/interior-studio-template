@@ -1,0 +1,218 @@
+:root{
+    --color:rgb(215, 212, 212);
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav h1 {
+    margin: auto;
+}
+.nav h1 a{
+    text-decoration: none;
+    color: var(--color);
+}
+.nav p {
+    margin: auto;
+}
+.nav p i{
+    color: black;
+}
+.body{
+    width: 100%;
+    height: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--color);
+    display: flex;
+    flex-wrap: wrap;
+}
+.body .main{
+    width: 70%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+.body .main .child1{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(153, 150, 150) ;
+}
+.body .main .image{
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    bottom: 1120px;
+    right: 70px;
+    background-image: url(./assets/background\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.body .main .card{
+    width: 1000px;
+    height: 550px;
+    position: relative;
+    bottom: 1228px;
+    right: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-shrink: 1;
+}
+.body .main .card .card-child{
+    width: 31%;
+    height: 78%;
+    background-color: white; 
+}
+.body .main .card .child1 #img{
+    margin-left: 10px;
+    width: 100%;
+    height: 90px;
+    margin-top: 20px;
+}
+.body .main .card .child1 #img div{
+    height: 100%;
+    width: 120px;
+    background-image: url(./assets/image\ 1.PNG);
+    background-repeat: no-repeat;
+}
+.body .main .card .child1 h1{    margin-left: 10px;
+    color: rgb(153, 150, 150) ;
+}
+.body .main .card .child1 p{
+    margin-top: -15px;
+    margin-left: 10px;
+    font-size: 1.3em;
+    line-height: 19px;
+    color: rgb(174, 171, 171);
+
+}
+.body .main .card .child1 span {
+    margin-top: -60px;
+
+}
+.body .main .card .child1 span a{
+    margin-left: 10px;
+    color: rgb(153, 150, 150) ;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.body .main .card .child1 span a:hover{
+    text-decoration: underline black;
+}
+
+
+.body .main .card .child2 #img{
+    margin-left: 10px;
+    width: 100%;
+    height: 90px;
+    margin-top: 20px;
+}
+.body .main .card .child2 #img div{
+    height: 100%;
+    width: 120px;
+    background-image: url(./assets/image\ 2.PNG);
+    background-repeat: no-repeat;
+}
+.body .main .card .child2 h1{    margin-left: 10px;
+    color: rgb(153, 150, 150) ;
+}
+.body .main .card .child2 p{
+    margin-top: -15px;
+    margin-left: 10px;
+    font-size: 1.3em;
+    color: rgb(174, 171, 171);
+
+}
+.body .main .card .child2 span {
+    margin-top: -60px;
+
+}
+.body .main .card .child2 span a{
+    margin-left: 10px;
+    color: rgb(153, 150, 150) ;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.body .main .card .child2 span a:hover{
+    text-decoration: underline black;
+}
+
+
+.body .main .card .child3 #img{
+    margin-left: 10px;
+    width: 100%;
+    height: 90px;
+    margin-top: 20px;
+}
+.body .main .card .child3 #img div{
+    height: 100%;
+    width: 120px;
+    background-image: url(./assets/image\ 3.PNG);
+    background-repeat: no-repeat;
+}
+.body .main .card .child3 h1{    margin-left: 10px;
+    color: rgb(153, 150, 150) ;
+}
+.body .main .card .child3 p{
+    margin-top: -15px;
+    margin-left: 10px;
+    font-size: 1.3em;
+    color: rgb(174, 171, 171);
+
+}
+.body .main .card .child3 span {
+    margin-top: -60px;
+
+}
+.body .main .card .child3 span a{
+    margin-left: 10px;
+    color: rgb(153, 150, 150) ;
+    font-weight: bold;
+    font-size: 1.2em;
+} 
+.body .main .card .child3 span a:hover{
+    text-decoration: underline black;
+}
+.body .main .card span{
+    color: black;
+    font-size: 1.2em;
+}
+.body .main .card span a {
+    color: black;
+}
+.body .main .card span a:hover {
+    text-decoration: none;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(47, 43, 43);
+
+    text-align: center;
+}
+.footer p{
+    margin-top:100px;
+    color: white;
+    text-align: center;
+}
+
+.footer span {
+    color: white;
+}
+.footer  a{
+    color: white;
+}
+.footer  span a:hover{
+    color: grey;
+}
